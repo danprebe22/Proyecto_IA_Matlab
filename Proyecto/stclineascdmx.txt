@@ -1,0 +1,264 @@
+STC Metro
+
+///////////////////
+///////////////////
+Línea 1:
+
+Observatorio
+Tacubaya
+Juanacatlan
+Chapultepec
+Sevilla
+Insurgentes
+Cuauthemoc
+Balderas
+Salto del agua
+Isabel la Católica
+Pino Suárez
+Merced
+Candelaria
+San Lázaro
+Moctezuma
+Balbuena
+Blv. Pto. Aereo
+Gómez Farías
+Zaragoza
+Pantitlán
+
+///////////////////
+///////////////////
+Línea 2:
+
+Cuatro caminos
+Panteones
+Tacuba
+Cuitláhuac
+Popotla
+San Cosme
+Revolución
+Hidalgo
+Bellas Artes
+Allende
+Zócalo
+Pino Suarez
+Chabacano
+Viaducto
+Xola
+Villa de Cortés
+Nativitas
+Portales
+Ermita
+General Anaya
+Tasqueña
+
+///////////////////
+///////////////////
+Línea 3:
+
+Indios Verdes
+Deptvo 18 de Marzo
+Potrero
+La Raza
+Tlatelolco
+Guerrero
+Hidalgo
+Juárez
+Balderas
+Heroes boys
+Hospital General
+Centro Médico
+Etiopía
+Eugenia
+División del Norte
+Zapata
+Coyoacán
+Viveros de Coyo
+MAQUEVEDO
+Copilco
+Universidad
+
+///////////////////
+///////////////////
+Línea 4:
+
+Martín Carrera
+Talismán
+Bondojito
+Consulado
+Canal del norte
+Morelos
+Candelaria
+Fray Servando
+Jamaica
+Santa Anita
+
+
+///////////////////
+///////////////////
+Línea 5:
+
+1. Pantitlán
+2. Hangares
+3. Terminal Aerea
+4. Oceania
+5. Aragon
+6. Eduardo Molina
+7. Consulado
+8. Valle Gomez
+9. Misterios
+10. La raza
+11. Autobuses Nte
+12. Instituto del petróleo
+13. Politécnico
+
+////////////////////
+////////////////////
+
+Línea 6:
+
+1. El rosario
+2. Tezozomoc
+3. Azcapotzalco
+4. Ferreria
+5. Norte 45
+6. Vallejo
+7. Instituto del petróleo
+8. Lindavista
+9. Deportivo 18 de marzo
+10. La villa
+11. Martín Carrera
+
+
+///////////////////
+//////////////////
+
+Línea 7 :
+
+El rosario
+Aquiles Serdán
+Camarones
+Refinería
+Tacuba
+San Joaquín
+Polanco
+Auditorio
+Constituyentes
+Tacubaya
+San Pedro de los Pinos
+San Antonio
+Mixcoac
+Barranca del muerto
+
+/////////////////////
+////////////////////
+Línea 8:
+
+1. GARIBALDI/ LAGUNILLA
+2. BELLAS ARTES
+3. SAN JUAN DE LETRAN
+4. SALTO DEL AGUA
+5. DOCTORES
+6. OBRERA
+7. CHABACANO
+8. LA VIGA 
+9. SANTA ANITA
+10. COYUYA
+11. IZTACALCO
+12. APATLACO
+13. ACULCO
+14. ESCUADRON 201
+15. ATLALILCO
+16. IZTAPALAPA
+17 .CERRO DE LA ESTRELLA
+18. UAM-I 
+19. CONSTITUCION DE 1917
+
+/////////////////////////////
+/////////////////////////////
+
+Línea 9
+
+
+1. TACUBAYA
+2. PATRIOTISMO
+3. CHILPANCINGO
+4. CENTRO MÉDICO
+5. LÁZARO CÁRDENAS
+6. CHABACANO
+7. JAMAICA
+8. MIXIUCHA
+9. VELÓDROMO
+10. CIUDAD DEPORTIVA
+11. PUEBLA
+12. PANTITLÁN
+
+
+/////////////////////////////
+////////////////////////////
+
+LÍNEA A.
+
+1. PANTITLÁN 
+2. AGRÍCOLA ORIENTAL 
+3. CANAL DE SAN JUAN
+4. TEPALCATES
+5. GUELATAO
+6. PEÑÓN VIEJO
+7. ACATITLA
+8. SANTA MARTA
+9. LOS REYES
+10. LA PAZ
+
+
+//////////////////////
+////////////////////
+
+LÍNEA B
+
+1. CIUDAD AZTECA
+2. PLAZA ARAGON 
+3. OLIMPICA
+4. ECATEPEC
+5. MUZQUIZ
+6. RIO DE LOS REMEDIOS
+7. IMPULSORA
+8. NEZAHUALCOYOTL
+9. VILLA DE ARAGON
+10. BOSQUE DE ARAGON 
+11.  DEPORTIVO OCEANIA
+12. OCEANIA
+13.  ROMERO RUBIO
+14. RICARDO FLORES MAGON
+15. SAN LAZARO
+16. MORELOS
+17. TEPITO
+18. LAGUNILLA
+19. GARIBALDI/ LAGUNILLA
+20. GUERRERO
+21. BUENAVISTA
+
+//////////////////////////
+//////////////////////////
+
+LÍNEA 12
+
+1. MIXCOAC
+2. INSURGENTES SUR
+3. HOSPITAL 20 DE NOVIEMBRE
+4.  ZAPATA
+5. PARQUE DE LOS VENADOS
+6. EJE CENTRAL
+7. ERMITA
+8. MEXICALTZINGO
+9. ATLALILCO
+10. CULHUACAN
+11. SAN ANDRES TOMATLAN
+12. LOMAS ESTRELLAS
+13. CALLE 11
+14. PERIFERICO ORIENTE
+15. TEZONCO
+16. OLIVOS
+17. NOPALERA
+18. ZAPOTITLAN
+19. TLALTENCO
+20. TLAHUAC
