@@ -1,29 +1,41 @@
 STC Metro
 
+línea 1 (1-20)
+línea 2 (21-43)
+línea 3 (44-62)
+línea 4 (63-71)
+línea 5 (72-81)
+línea 6 (82-89)
+línea 7 (90-100)
+línea 8 (101-115)
+línea 9 (116-122)
+línea A (123-131)
+línea B (132-147)
+línea 12 (148-163)
 ///////////////////
 ///////////////////
 Línea 1:
 
-Observatorio
-Tacubaya
-Juanacatlan
-Chapultepec
-Sevilla
-Insurgentes
-Cuauthemoc
-Balderas
-Salto del agua
-Isabel la Católica
-Pino Suárez
-Merced
-Candelaria
-San Lázaro
-Moctezuma
-Balbuena
-Blv. Pto. Aereo
-Gómez Farías
-Zaragoza
-Pantitlán
+OBSERVATORIO
+TACUBAYA
+JUANACATLAN
+CHAPULTEPEC
+SEVILLA
+INSURGENTES
+CUAUHTEMOC
+BALDERAS
+SALTO DEL AGUA
+ISABEL LA CATOLICA
+PINO SUAREZ
+MERCED
+CANDELARIA
+SAN LAZARO
+MOCTEZUMA
+BALBUENA
+BOULEVARD PUERTO AEREO
+GOMEZ FARIAS
+ZARAGOZA
+20. PANTITLAN
 
 ///////////////////
 ///////////////////
