@@ -87,15 +87,13 @@ A =ruta();
 [tiempo camino]=dijkstra(A,origen,destino);
 
 tam=size(camino)
-estaciones=[1:tam(2)];
-aux=estaciones;
-name= string(estaciones);
-for i=aux
+vect=[1:tam(2)];
+for i=vect
     
-    name(i)=getName(camino(i));
+    getName(camino(i));
     
 end
- set(handles.lee,'string',estaciones)
+ set(handles.lee,'string',tiempo)
 
 
 
