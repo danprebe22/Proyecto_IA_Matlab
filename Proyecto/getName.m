@@ -1,3 +1,5 @@
+function [name] = getName(num)
+switch num
 	case 1
 		name='OBSERVATORIO';
 	case 2
@@ -324,3 +326,6 @@
 		name='TLALTENCO';
 	case 163
 		name='TLAHUAC';
+end
+end
+

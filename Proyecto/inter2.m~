@@ -92,7 +92,7 @@ aux=estaciones;
 name= string(estaciones);
 for i=aux
     
-    name(i)=getName(camino(i));
+    name(i)='A';
     
 end
  set(handles.lee,'string',estaciones)

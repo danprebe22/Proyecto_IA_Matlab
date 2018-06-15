@@ -22,7 +22,7 @@ FILE * pFile;
 			for (int j = 0; j < 163; ++j)
 			 {
 			
-			 fprintf(archivo,"case '%s'\n\tnum='%d';",estacion[j],j+1);
-	        fprintf(archivo,"\n\tset(handles.lee,'string',num);\n");
+			 fprintf(archivo,"\tcase %d\n\t\tname='%s';\n",j+1,estacion[j]);
+	        //fprintf(archivo,"\n\tset(handles.lee,'string',numD);\n");
 	        } 
 }

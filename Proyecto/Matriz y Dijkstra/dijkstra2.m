@@ -1,4 +1,4 @@
-function [e L] = dijkstra(A,s,d)
+function [e L] = dijkstra2(A,s,d)
 
 if s==d
     e=0;
