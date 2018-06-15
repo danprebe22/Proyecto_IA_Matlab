@@ -1,22 +1,3 @@
-%---------------------------------------------------
-% Dijkstra Algorithm
-% author : Dimas Aryo
-% email : mr.dimasaryo@gmail.com
-%
-% usage
-% [cost rute] = dijkstra(Graph, source, destination)
-% 
-% example
-% G = [0 3 9 0 0 0 0;
-%      0 0 0 7 1 0 0;
-%      0 2 0 7 0 0 0;
-%      0 0 0 0 0 2 8;
-%      0 0 4 5 0 9 0;
-%      0 0 0 0 0 0 4;
-%      0 0 0 0 0 0 0;
-%      ];
-% [e L] = dijkstra(G,1,7)
-%---------------------------------------------------
 function [e L] = dijkstra(A,s,d)
 
 if s==d
