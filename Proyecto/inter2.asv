@@ -1067,7 +1067,7 @@ switch estacionD
 end
 
 
-tiempo=ruta(numO,numD);
+[tiempo ruta]=(numO
 set(handles.lee,'string', tiempo);
 
 
