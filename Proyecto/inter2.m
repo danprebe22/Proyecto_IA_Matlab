@@ -22,7 +22,7 @@ function varargout = inter2(varargin)
 
 % Edit the above text to modify the response to help inter2
 
-% Last Modified by GUIDE v2.5 15-Jun-2018 02:30:03
+% Last Modified by GUIDE v2.5 15-Jun-2018 02:54:40
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -42,6 +42,7 @@ else
     gui_mainfcn(gui_State, varargin{:});
 end
 % End initialization code - DO NOT EDIT
+
 
 
 % --- Executes just before inter2 is made visible.
@@ -78,10 +79,14 @@ function calculaRutabtn_Callback(hObject, eventdata, handles)
 % hObject    handle to calculaRutabtn (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-estacion=get(handles.destino,'string');
-destino=getNumber(estacion)
-estacion=get(handles.origen,'string');
-origen=getNumber(estacion)
+
+%estacion=
+%est = strcat(estacion,'')
+est=get(handles.destino,'string')
+destino=getNumber(est);
+est=get(handles.origen,'string')
+%est = strcat(estacion,'')
+origen=getNumber(est);
 A =ruta();
 
 [tiempo camino]=dijkstra(A,destino,origen);
@@ -186,6 +191,9 @@ function origen_CreateFcn(hObject, eventdata, handles)
 if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor','white');
 end
+img=imread('sbw1.jpg'); %el nombre de archivo de tu imagen y el formato deberá estar en la misma carpeta donde guardas el GUI
+imshow(img);
+axis off  
 
 
 
@@ -219,12 +227,14 @@ function fondo_CreateFcn(hObject, eventdata, handles)
 % hObject    handle to fondo (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
-
+set(handles.inter2,'currentaxes',handles.axe1);  %donde "Principal" es el nombre de tu espacio de trabajo por default es "figure"
+cla  
 % Hint: place code in OpeningFcn to populate fondo
-
-axes(hObject)
-imshow('sbw1.jpg')
-
+img=imread('sbw1.jpg'); %el nombre de archivo de tu imagen y el formato deberá estar en la misma carpeta donde guardas el GUI
+imshow(img);
+axis off                                                     %se desactiva para evitar futuros incovenientes
+handles.output = hObject;
+guidata(hObject, handles);
 
 % --- Executes during object creation, after setting all properties.
 function lee_CreateFcn(hObject, eventdata, handles)
@@ -250,6 +260,61 @@ function listbox1_CreateFcn(hObject, eventdata, handles)
 % handles    empty - handles not created until after all CreateFcns called
 
 % Hint: listbox controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+% --- Executes on selection change in popupmenu3.
+function popupmenu3_Callback(hObject, eventdata, handles)
+% hObject    handle to popupmenu3 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+ %Hints: contents = cellstr(get(hObject,'String')) %returns popupmenu3 contents as cell array
+ % contents{get(hObject,'Value')}% returns selected item from popupmenu3
+str = get(hObject, 'String');
+val = get(hObject,'Value');
+es=str{val}
+ set(handles.origen,'string',es);
+ guidata(hObject,handles)
+
+
+% --- Executes during object creation, after setting all properties.
+function popupmenu3_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to popupmenu3 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: popupmenu controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+% --- Executes on selection change in popupmenu4.
+function popupmenu4_Callback(hObject, eventdata, handles)
+% hObject    handle to popupmenu4 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+str = get(hObject, 'String');
+val = get(hObject,'Value');
+es=str{val};
+ set(handles.destino,'string',es);
+ guidata(hObject,handles)
+
+% Hints: contents = cellstr(get(hObject,'String')) returns popupmenu4 contents as cell array
+%        contents{get(hObject,'Value')} returns selected item from popupmenu4
+
+
+% --- Executes during object creation, after setting all properties.
+function popupmenu4_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to popupmenu4 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+% Hint: popupmenu controls usually have a white background on Windows.
 %       See ISPC and COMPUTER.
 if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor','white');
